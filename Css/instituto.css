@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------*/
+
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 40px solid darkblue;
+}
+
+.logo{
+    width: 5%;
+}
+
+/*------------*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.foto_izquierda{
+    width: 20%;
+}
+
+.foto_derecha{
+    width: 20%;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.ul1{
+    position: absolute;
+}
+
+.li1{
+    border-right: 1px solid;
+}
+
+.li2{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.li3{
+    width: 10%;
+    background-color: white;
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display: none;
+}
+    
+.menu li:hover >ul{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+.menu li a:hover{
+    background-color: lightskyblue;
+}
+
+/*------------*/
+
+.imagen_principal{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1em;
+}
+
+/*------------*/
+
+.alto{
+    width: 100%;
+    height: 100px;
+    margin-bottom: -10px;
+}
+
+.bajo{
+    width: 100%;
+    height: 100px; 
+}
+
+.enlaces_externos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.enlaces_externos > h2{
+    width: 0px;
+    height: 0px;
+}
+
+.enlace1{
+    width: 23.75%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.enlace2{
+    width: 23.75%;
+    text-align: center;
+}
+
+.enlace3{
+    width: 23.75%;
+    text-align: center;
+}
+
+.enlace4{
+    width: 23.75%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+
+.pincel_ekade{
+    width: 50%;
+}
+
+.matricula{
+    width: 60%;
+}
+
+.campus{
+    width: 65%;
+}
+
+.covid{
+    width: 50%;
+    margin-top: 1.7%;
+}
+
+/*------------*/
+
+.section3{
+    margin-top: 1em;
+}
+
+.section3 > h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.entrada1{
+    width: 20%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 15px 15px lightskyblue;
+}
+
+.centro{
+    width: 20%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 15px 15px lightskyblue;
+}
+
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+}
+
+.final > h2{
+    width: 0px;
+    height: 0px;
+}
+
+.entrada1{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.centro{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.final > p{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*------------*/
+
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 94%;
+    margin-top: 3em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.section4 > table{
+    width: 47%;
+    background-color: rgb(236, 243, 252);
+}
+
+iframe{
+    width: 47%;
+}
+
+/*------------*/
+
+.section5 > table, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section5 > h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+
+.columna{
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: lightgreen;
+}
+
+.columna1{
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: lightcoral;
+}
+
+.columna2{
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: lightgray;
+}
+
+/*------------*/
+
+footer{
+    background-color: darkblue;
+    margin-top: 3em;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1{
+    width:60%;
+    text-align: center;
+
+}
+
+.div2{
+    width: 40%;
+    text-align: center;
+}
+
+.educacion{
+    width: 10%;
+    border-radius: 20px;
+}
+
+.facebook{
+    width: 10%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+

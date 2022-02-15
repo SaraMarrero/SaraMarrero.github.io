@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 40px solid darkblue;
+}
+
+.logo{
+    width: 5%;
+}
+
+/*------------*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.foto_izquierda{
+    width: 20%;
+}
+
+.foto_derecha{
+    width: 20%;
+}
+
+.menu > li{
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
+}
+
+.ul1{
+    position: absolute;
+}
+
+.li1{
+    border-right: 1px solid;
+}
+
+.li2{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.li3{
+    width: 10%;
+    background-color: white;
+    list-style: none;
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display: none;
+}
+    
+.menu li:hover >ul{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+.menu li a:hover{
+    background-color: lightskyblue;
+}
+
+/*------------*/
+
+.section1 > h2{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.section1 > p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+
+/*------------*/
+
+.section2 > h2{
+    width: 0px;
+    height: 0px;
+}
+
+.article1 > h2{
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 1px 1px 15px 15px lightskyblue;
+    background-color: whitesmoke;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 85%;
+}
+
+table,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 1rem;
+}
+
+.ul{
+    margin-left: 2%;
+}
+
+th{
+    background-color: lightgrey;
+}
+
+.nombre{
+    background-color: rgb(198, 235, 242); 
+    font-weight: bold;
+}
+
+.salida{
+    background-color: rgb(220, 244, 249);
+}
+
+/*------------*/
+
+footer{
+    background-color: darkblue;
+    margin-top: 3em;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1{
+    width:60%;
+    text-align: center;
+
+}
+
+.div2{
+    width: 40%;
+    text-align: center;
+}
+
+.educacion{
+    width: 10%;
+    border-radius: 20px;
+}
+
+.facebook{
+    width: 10%;
+    border-radius: 20px;
+}

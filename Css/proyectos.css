@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 40px solid darkblue;
+}
+
+.logo{
+    width: 5%;
+}
+
+/*------------*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.foto_izquierda{
+    width: 20%;
+}
+
+.foto_derecha{
+    width: 20%;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.ul1{
+    position: absolute;
+}
+
+.li1{
+    border-right: 1px solid;
+}
+
+.li2{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.li3{
+    width: 10%;
+    background-color: white;
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display: none;
+}
+    
+.menu li:hover >ul{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+.menu li a:hover{
+    background-color: lightskyblue;
+}
+
+/*------------*/
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+td{
+    padding: 0.5rem;
+}
+
+th{
+    background-color: lightslategrey;
+}
+
+.color1{
+    background-color: lightskyblue;
+    
+}
+
+.color2{
+    background-color: lightsteelblue;
+}
+
+/*------------*/
+
+footer{
+    background-color: darkblue;
+    margin-top: 3em;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1{
+    width:60%;
+    text-align: center;
+
+}
+
+.div2{
+    width: 40%;
+    text-align: center;
+}
+
+.educacion{
+    width: 10%;
+    border-radius: 20px;
+}
+
+.facebook{
+    width: 10%;
+    border-radius: 20px;
+}
